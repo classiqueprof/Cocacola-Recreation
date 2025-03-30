@@ -1,0 +1,449 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden;
+  box-sizing: border-box; */
+}
+
+body {
+  background-color: rgb(245, 238, 238);
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+  display: inline-block;
+}
+
+.navbar {
+  position: relative;
+  height: 50px;
+  background-color: white;
+  padding-top: 30px;
+}
+
+.coke-logo {
+  position: absolute;
+  left: 5%;
+}
+
+.u-list {
+  position: absolute;
+  left: 18%;
+  top: -17px;
+  padding-top: 30px;
+}
+
+.user {
+  position: absolute;
+  top: 2px;
+  right: 5%;
+  padding-top: 30px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  margin-top: 130px;
+}
+
+.global {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 10rem;
+}
+
+.cloud {
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.planet {
+  font-size: 30px;
+  margin-top: 70px;
+}
+
+.aim {
+  font-size: 20px;
+}
+
+.read1 {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 8px 120px;
+  font-size: 20px;
+}
+
+.read1:hover {
+  background-color: rgb(199, 190, 190);
+}
+
+.people {
+  background-color: white;
+  width: 35%;
+  padding-left: 60px;
+  border-radius: 20px;
+  height: 600px;
+}
+.icloud {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+/* .width {
+  position: absolute;
+  left: 10%;
+} */
+
+.people {
+  margin-left: -6rem;
+  margin-top: -5rem;
+}
+
+.matter {
+  font-size: 30px;
+}
+
+.believe {
+  font-size: 20px;
+}
+
+.smiling {
+  width: 600px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.matter101 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+  flex-direction: row-reverse;
+}
+
+.pmat {
+  background-color: white;
+  width: 35%;
+  padding-left: 60px;
+  border-radius: 20px;
+  height: 500px;
+  padding-top: 80px;
+}
+
+/* .smile {
+  position: absolute;
+  left: 45%;
+} */
+
+.pmat {
+  margin-right: -6rem;
+  margin-top: -5rem;
+  z-index: 1;
+}
+
+.explore {
+  text-align: center;
+  font-size: 35px;
+}
+
+.cola {
+  width: 300px;
+  height: 200px;
+}
+/* 
+.cola-img {
+  background-color: white;
+  width: 20%;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 20px;
+  position: absolute;
+  left: 20%;
+}
+
+.fanta-img {
+  background-color: white;
+  width: 20%;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 20px;
+  position: absolute;
+  left: 42%;
+}
+
+.sprite-img {
+  background-color: white;
+  width: 20%;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 20px;
+  position: absolute;
+  left: 64%;
+}
+
+.schweppes-img {
+  background-color: white;
+  width: 20%;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 20px;
+  position: absolute;
+  left: 30%;
+  top: 300px;
+}
+
+.alive-img {
+  background-color: white;
+  width: 20%;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 20px;
+  position: absolute;
+  left: 52%;
+  top: 300px;
+} */
+
+.drinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.view {
+  text-align: center;
+  height: 150px;
+}
+
+.viewall {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 8px 120px;
+  font-size: 20px;
+}
+
+.viewall:hover {
+  background-color: rgb(199, 190, 190);
+}
+
+.svg {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 6rem;
+  flex-wrap: wrap;
+}
+
+.solid {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 25px;
+  /* position: absolute;
+  left: 80%;
+  top: 5px;
+  margin-top: 60px; */
+}
+
+/* .white {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  margin-top: 60px;
+} */
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8rem;
+  padding-top: 3rem;
+}
+
+/* .about {
+ flex
+}
+
+.help {
+  position: absolute;
+  left: 25%;
+  top: 50px;
+}
+
+.terms {
+  position: absolute;
+  left: 40%;
+  top: 80px;
+} */
+
+.fa-brands {
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+}
+
+#book {
+  width: 20px;
+  text-align: center;
+}
+/* 
+.brands {
+  position: absolute;
+  left: 75%;
+  top: 50px;
+} */
+
+.rate {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: black;
+  color: white;
+}
+.company {
+  padding: 0 3rem;
+}
+.ring {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1199px) {
+  .u-list,
+  .user {
+    display: none;
+  }
+
+  .icloud {
+    flex-direction: column-reverse;
+  }
+
+  .cloud,
+  .smiling {
+    width: 100%;
+    height: auto;
+  }
+
+  .people,
+  .pmat {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    height: auto;
+    margin-bottom: -3rem;
+    z-index: 1;
+  }
+
+  .planet,
+  .matter {
+    margin-bottom: 1rem;
+  }
+
+  .aim br,
+  .planet br,
+  .people br,
+  .believe br,
+  .pmat br {
+    display: none;
+  }
+
+  .aim,
+  .believe {
+    margin-bottom: 2rem;
+  }
+
+  .read1 {
+    width: 100%;
+  }
+
+  .matter101 {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 480px) {
+  .global {
+    font-size: 24px;
+    margin-bottom: 4rem;
+  }
+  .planet {
+    font-size: 21px;
+  }
+  .aim {
+    font-size: 16px;
+  }
+  .read1 {
+    font-size: 16px;
+    padding: 6px 80px;
+  }
+  .matter {
+    font-size: 21px;
+  }
+  .believe {
+    font-size: 16px;
+  }
+  .explore {
+    font-size: 24px;
+  }
+  .solid {
+    font-size: 16px;
+    padding: 4px 20px;
+  }
+  .viewall {
+    font-size: 16px;
+    padding: 6px 80px;
+  }
+  #book {
+    font-size: 16px;
+  }
+
+  .terms,
+  .brands,
+  .about,
+  .help {
+    padding: 0 2rem;
+  }
+
+  .footer {
+    gap: 3rem;
+  }
+
+  .company p {
+    font-size: 0.8rem;
+  }
+
+  .cola {
+    width: 150px;
+    height: 150px;
+  }
+
+  .svg {
+    padding: 1rem 2rem;
+  }
+
+  .people,
+  .pmat {
+    width: 80%;
+  }
+
+  .matter101,
+  .icloud {
+    margin-bottom: 4rem;
+  }
+}
